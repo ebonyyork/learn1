@@ -1,0 +1,13 @@
+import Image from "next/image";
+import MyHero from "../_components/hero";
+import MyTest from "../_components/test";
+
+export default function Home() {
+  return (
+    <div>
+      <MyHero title={"About Us"}></MyHero>
+      <MyTest />
+    </div>
+    
+  );
+}
